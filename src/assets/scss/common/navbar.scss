@@ -1,6 +1,5 @@
 .navbar {
-  position: fixed;
-  top: 0;
+  position: relative;
   left: 0;
   right: 0;
   z-index: 99;
@@ -19,9 +18,10 @@
 }
 
 .navbar-list {
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .navbar-item {
@@ -34,9 +34,12 @@
 
 .navbar-link {
   display: block;
-  color: #aaaad5;
+  color: $neutral-primary;
   // active link
   &.active {
-    color: #4343aa;
+    color: $main-color;
+  }
+  &.router-link-exact-active {
+    color: $main-color;
   }
 }

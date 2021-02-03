@@ -1,0 +1,19 @@
+.top {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  cursor: pointer;
+  display: flex;
+  width: 250px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: $main-color;
+  &:hover {
+    color: $neutral-primary;
+  }
+}
