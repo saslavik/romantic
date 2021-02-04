@@ -10,7 +10,7 @@ export default [
   {accommodationId: 26274, name: "2 взрослых и 3 ребенка", children: 3, adult: 2, selected: false},
   {accommodationId: 31212, name: "2 взрослых и 4 ребенка", children: 4, adult: 2, selected: false},
   {accommodationId: 3, name: "3 Взрослых", children: 0, adult: 3, selected: false},
-  {accommodationId: 14356, name: "3 Взрослых и 1 Ребенок", children: 1, adult: 3, selected: false},
+  {accommodationId: 21347, name: "3 Взрослых и 1 Ребенок", children: 1, adult: 3, selected: false},
   {accommodationId: 26274, name: "3 Взрослых и 2 Ребенка", children: 2, adult: 3, selected: false},
   {accommodationId: 31212, name: "3 взрослых и 3 ребенка", children: 3, adult: 3, selected: false},
   {accommodationId: 15352, name: "4 Взрослых", children: 0, adult: 4, selected: false},
