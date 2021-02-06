@@ -4,7 +4,7 @@
   line-height: 1;
   text-transform: uppercase;
   cursor: pointer;
-  border-radius: 30px;
+  border-radius: 5px;
 
   // default btn
   &.btnDefaul {
@@ -15,12 +15,13 @@
 
   // primiry btn
   &.btnPrimary {
-    color: #ffffff;
+    color: $main-color;
     border: 1px solid $main-color;
-    background-color: $main-color;
+    background-color: #ffffff;
     &:hover {
-      background-color: $neutral-primary;
-      border: 1px solid $neutral-primary;
+      background-color: $main-color;
+      border: 1px solid $main-color;
+      color: #fff;
     }
   }
 
