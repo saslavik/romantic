@@ -4,13 +4,18 @@
   line-height: 1;
   text-transform: uppercase;
   cursor: pointer;
-  border-radius: 7px;
+  border-radius: 5px;
 
   // default btn
-  &.btnDefaul {
+  &.btnDefault {
     color: #333333;
-    border: 1px solid #ffffff;
-    background-color: #333333;
+    border: 1px solid $main-color;
+    background-color: $main-color;
+    &:hover {
+      background-color: $main-color;
+      border: 1px solid $main-color;
+      color: #fff;
+    }
   }
 
   // primiry btn
@@ -19,9 +24,9 @@
     border: 1px solid $main-color;
     background-color: #ffffff;
     &:hover {
-      color: #ffffff;
       background-color: $main-color;
       border: 1px solid $main-color;
+      color: #fff;
     }
   }
 

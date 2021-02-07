@@ -91,5 +91,9 @@ section, .section {
     max-width: $smPhoneWidth;
   }
 }
+.material-icons {
+  color: $main-color;
+  padding: 16px;
+}
 
 @import "./common.scss";
