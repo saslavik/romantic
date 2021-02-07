@@ -4,23 +4,24 @@
   line-height: 1;
   text-transform: uppercase;
   cursor: pointer;
-  border-radius: 30px;
+  border-radius: 7px;
 
   // default btn
   &.btnDefaul {
-    color: #ffffff;
-    border: 1px solid #333333;
+    color: #333333;
+    border: 1px solid #ffffff;
     background-color: #333333;
   }
 
   // primiry btn
   &.btnPrimary {
-    color: #ffffff;
+    color: $main-color;
     border: 1px solid $main-color;
-    background-color: $main-color;
+    background-color: #ffffff;
     &:hover {
-      background-color: $neutral-primary;
-      border: 1px solid $neutral-primary;
+      color: #ffffff;
+      background-color: $main-color;
+      border: 1px solid $main-color;
     }
   }
 
